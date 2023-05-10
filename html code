@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="TR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
+  
+  <title>Mehmet Sahaf Bayrakçı</title>
+
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/themify-icons.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/animate/animate.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/owl-carousel/owl.carousel.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/nice-select/css/nice-select.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/fancybox/css/jquery.fancybox.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/topbar.virtual.css">
+</head>
+<body class="theme-red">
+  
+  <!-- Back to top button -->
+  <div class="btn-back_to_top">
+    <span class="ti-arrow-up"></span>
+  </div>
+  
+  <!-- Setting button -->
+  <div class="config">
+    <div class="template-config">
+      <!-- Settings -->
+      <div class="d-block">
+        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
+      </div>
+      <!-- Puschase -->
+      <div class="d-block">
+      </div>
+      <!-- Help -->
+      <div class="d-block">
+      </div>
+    </div>
+    <div class="set-menu">
+      <p>Renk seç</p>
+      <div class="color-bar" data-toggle="selected">
+        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
+        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
+        <span class="color-item bg-theme-green" data-class="theme-green"></span>
+        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
+        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
+    <!-- Navbar -->
+    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
+      <div class="container">
+        <a href="" class="navbar-brand">Portfolyo</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
+          <span class="ti-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link" data-animate="scrolling">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-animate="scrolling">Hakkında</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link" data-animate="scrolling">Galeri</a>
+            </li>
+          </ul>
+          <ul class="nav ml-auto">
+            <li class="nav-item">
+              <button class="btn btn-fab btn-theme no-shadow">TR</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- End Navbar -->
+    <!-- Caption header -->
+    <div class="caption-header text-center wow zoomInDown">
+      <h5 class="fw-normal">Merhaba</h5>
+      <h1 class="fw-light mb-4">Ben <b class="fg-theme">Sahaf</b> Bayrakçı</h1>
+      <div class="badge">Yönetim Bilişim Sistemleri Öğrencisi</div>
+    </div> <!-- End Caption header -->
+  </div>
+  
+  <div class="vg-page page-about" id="about">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="img-place wow fadeInUp">
+            <img src="../assets/img/sahafprofil.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+          <h1 class="fw-light">Mehmet Sahaf Bayrakçı</h1>
+          <h5 class="fg-theme mb-3">Şu an Üniversite Eğitimi almaktayım ve Proje Çalışmalarıma devam etmekteyim.</h5>
+          <p class="text-muted"></p>
+          <ul class="theme-list">
+            <li><b>Yaşadığı yer:</b> Hatay</li>
+            <li><b>Yaş:</b> 20</li>
+            <li><b>Sınıf:</b> 1. Sınıf</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-6 wow fadeInRight">
+          <h2 class="fw-normal">Egitim</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              
+            </li>
+            <li>
+              <div class="title">2022</div>
+              <div class="details">
+                <h5>Bursa Uludağ Üniversitesi</h5>
+                <small class="fg-theme">Üniversite</small>
+                <p>Yönetim Bilişim Sistemleri</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2017</div>
+              <div class="details">
+                <h5> Karlısu Sosyal Bilimler Lisesi</h5>
+                <small class="fg-theme">Lise</small>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+          <h2 class="fw-normal">Basarılar</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2023</div>
+              <div class="details">
+                <h5>Teknofest</h5>
+                <small class="fg-theme">Eğitim Teknolojileri Yarışması</small>
+                <p>Teknofest Finalisti</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2021</div>
+              <div class="details">
+                <h5>Başakşehir Living Lab</h5>
+                <small class="fg-theme">İnsansız Hava Araçları ile Faydalı İş Modelleri Fikir Yarışması </small>
+                <p> Türkiye Birinciliği</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2021</div>
+              <div class="details">
+                <h5>Tübitak</h5>
+                <small class="fg-theme">Tubitak 2204 A lise Öğrencileri Araştırma Projeleri Yarışması</small>
+                <p>Adana Bölge Üçüncülüğü</main></p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2021</div>
+              <div class="details">
+                <h5>Teknofest</h5>
+                <small class="fg-theme">İnsanlık Yararına Teknoloji Yarışması</small>
+                <p>Teknofest Finalisti</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="vg-page page-service">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+      </div>
+      <h1 class="fw-normal text-center wow fadeInUp">Neler yapabilirim</h1>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+            <img src="../assets/img/logo/drone.png" style="width:35px;height: 35px">
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">İHA Sistemleri</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-search"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">AR-GE</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <img src="../assets/img/logo/google.png" style="width:35px;height: 35px">
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Programlama</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-desktop"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Web Tasarımcılğı</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="vg-page page-funfact" style="background-image: url(../assets/img/bg_banner.jpg);">
+    <div class="container">
+      <div class="row section-counter">
+        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+          <h1 class="number" data-number="5">5</h1>
+          <span>Katılınan Yarışmalar</span>
+        </div>
+        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+          <h1 class="number" data-number="3">3</h1>
+          <span>Bitmiş Projeler</span>
+        </div>
+        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+          <h1 class="number" data-number="2">2</h1>
+          <span>Devam Eden Projeler</span>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Portfolio page -->
+  <div class="vg-page page-portfolio" id="portfolio">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+      <h1 class="text-center fw-normal wow fadeInUp">Galeri</h1>
+      </div>
+       <div class="gridder my-3">
+        <div class="grid-item apps wow zoomIn">
+        </div>
+        <div class="grid-item template wireframes wow zoomIn">
+        <div class="img-place" data-src="../assets/img/work/work-2.jpg" data-fancybox data-caption="">
+            <img src="../assets/img/work/work-2.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Model Uçak</h5>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item apps ios wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-3.jpg" data-fancybox data-caption="">
+            <img src="../assets/img/work/work-3.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">RC FPV Araç</h5>
+              <p>Robotik Çalışmalar</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item graphic ui-ux wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-4.jpg" data-fancybox data-caption="">
+            <img src="../assets/img/work/work-4.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">AYSİ</h5>
+              <p>Yangın Söndürme Dronu</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item apps ios wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-5.jpg" data-fancybox data-caption="">
+            <img src="../assets/img/work/work-5.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Havacılık-Drone çalışmaları</h5>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item graphic ui-ux wireframes wow zoomIn">
+          <div class="img-place" data-src="../assets/img/work/work-6.jpg" data-fancybox data-caption="">
+            <img src="../assets/img/work/work-6.jpg" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">Orman Yangın Takip Sistemi</h5>
+              <p>Gözlem İstasyonu Tasarımı</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End gridder -->
+    </div>
+  </div> <!-- End Portfolio page -->
+  
+  <!-- Footer -->
+  <div class="vg-footer">
+    <h1 class="text-center">PORTFOLYO</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="float-lg-right">
+            <p>Takip Et</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Telefon</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="float-lg-right">
+            <p>Bana ulaş</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li>@mehmetsahaf</li>
+              <li>Mehmet Sahaf Bayrakçı</li>
+              <li>+905399455318</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 mb-3">
+          <h3 class="fw-normal text-center"></h3>
+        </div>
+        <div class="col-lg-6">
+          <form class="mb-3">
+            <div class="input-group">
+              
+          
+            </div>
+          </form>
+        </div>
+        <div class="col-12">
+          <p class="text-center mb-0 mt-4">mehmetsahafb@gmail.com<span ></span><a href="https://www.macodeid.com/"></a></p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End footer -->
+  
+  
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+    
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    
+  <script src="../assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+    
+  <script src="../assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    
+  <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script>
+    
+  <script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    
+  <script src="../assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+  <script src="../assets/vendor/wow/wow.min.js"></script>
+
+  <script src="../assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+  <script src="../assets/js/google-maps.js"></script>
+    
+  <script src="../assets/js/topbar-virtual.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+  
+</body>
+</html>
